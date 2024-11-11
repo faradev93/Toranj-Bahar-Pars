@@ -15,11 +15,54 @@ body {
 }
 
 /* ••••••••••••• Body ••••••••••••• */
-/* header */
-.header-collection{
-
+/*********** header **********/
+.header {
+  margin: 0 auto;
+  position: relative;
+  width: 1076px;
+  height: 67px;
+  border-bottom-left-radius: 240px;
+  border-bottom-right-radius: 240px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(16px);
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
-li{
-list-style-type: none;
+.list-header {
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row-reverse;
+  transition: 1s;
+}
+.list-header > li > a {
+  color: black;
+}
+
+.list-header > li > a > img {
+  width: 122px;
+  /* height: 40px; */
+}
+
+#language-setting {
+  width: 75px;
+  height: 47px;
+}
+/* All of Them in HTML Doc */
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*********** Main **********/
+.container{
+  margin: 0 auto;
+  position: relative;
+  width: 1076px;
+  height: 595px;
+  background-color: rgba(128, 128, 128, 0.279);
+
 }
