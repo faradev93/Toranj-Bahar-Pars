@@ -8,6 +8,7 @@ body {
   font-family: "Yekan";
   box-sizing: border-box;
   margin: 0;
+  direction: rtl;
 }
 
 .flex {
@@ -18,7 +19,7 @@ body {
 /*********** header **********/
 .header {
   margin: 0 auto;
-  position: relative;
+  position: sticky;
   width: 1076px;
   height: 67px;
   border-bottom-left-radius: 240px;
@@ -34,8 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  flex-direction: row-reverse;
-  transition: 1s;
+  transition: 0.5s;
 }
 .list-header > li > a {
   color: black;
@@ -58,11 +58,110 @@ a {
   text-decoration: none;
 }
 /*********** Main **********/
-.container{
+.container {
   margin: 0 auto;
+  margin-top: 70px;
   position: relative;
   width: 1076px;
   height: 595px;
-  background-color: rgba(128, 128, 128, 0.279);
+  align-items: center;
+}
 
+.container-text {
+  position: relative;
+  width: 628px;
+  height: 297px;
+}
+
+.toranj-bold-text {
+  width: 301px;
+  height: 83px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 82.91px;
+  text-align: right;
+  background: linear-gradient(270deg, #212125 0%, #246d42 99.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 4px 0;
+}
+
+.container-text-toranj-info {
+  width: 594px;
+  height: 113px;
+  margin: 0;
+  margin-top: 12px;
+  color: rgba(83, 83, 91, 1);
+  line-height: 41.45px;
+  font-size: 24px;
+}
+
+#bird {
+  position: absolute;
+  top: 0px;
+  left: 182px;
+  right: 548px;
+  bottom: 4877px;
+}
+
+.product-show-button {
+  margin-top: 24px;
+  width: 628px;
+  height: 51px;
+}
+
+.product-show-button > button {
+  color: white;
+  background-color: rgba(35, 157, 96, 1);
+  padding: 8px 16px;
+  font-family: "Yekan";
+  border-radius: 32px 16px;
+  border-style: none;
+  width: 196px;
+  height: 51px;
+  line-height: 34.55px;
+  font-size: 20px;
+  box-shadow: 0px 16px 32px 0px rgba(35, 157, 96, 0.48);
+}
+.product-show-button > button:hover {
+  color: white;
+  background-color: rgba(35, 157, 96, 0.7);
+  transition: 500ms;
+  padding: 8px 16px;
+  font-family: "Yekan";
+  border-radius: 32px 16px;
+  border-style: none;
+  width: 196px;
+  height: 51px;
+  line-height: 34.55px;
+  font-size: 20px;
+  box-shadow: 0px 16px 32px 0px rgba(35, 157, 96, 0.48);
+}
+.product-show-button > button:active {
+  color: white;
+  background-color: rgba(36, 109, 66, 1);
+  transition: 500ms;
+  padding: 8px 16px;
+  font-family: "Yekan";
+  border-radius: 32px 16px;
+  border-style: none;
+  width: 196px;
+  height: 51px;
+  line-height: 34.55px;
+  font-size: 20px;
+  box-shadow: 0px 16px 32px 0px rgba(35, 157, 96, 0.48);
+}
+.product-show-button > button:disabled {
+  color: white;
+  background-color: rgba(178, 178, 178, 1);
+  transition: 500ms;
+  padding: 8px 16px;
+  font-family: "Yekan";
+  border-radius: 32px 16px;
+  border-style: none;
+  width: 196px;
+  height: 51px;
+  line-height: 34.55px;
+  font-size: 20px;
+  box-shadow: 0px 16px 32px 0px rgba(35, 157, 96, 0.48);
 }
