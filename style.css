@@ -1,0 +1,25 @@
+/* Font & Style Settings */
+@font-face {
+  font-family: "Yekan";
+  src: url(public/fonts/IRANYekanX-Bold.woff2) format("woff2");
+  src: url(public/fonts/IRANYekanX-Regular.woff2) format("woff2");
+}
+body {
+  font-family: "Yekan";
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+/* ••••••••••••• Body ••••••••••••• */
+/* header */
+.header-collection{
+
+}
+
+li{
+list-style-type: none;
+}
