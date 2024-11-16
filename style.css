@@ -223,12 +223,14 @@ a {
   /* overflow: hidden; */
   border-top-right-radius: 160px;
   border-bottom-right-radius: 32px;
+  /* align-items: center; */
 }
 .back-forward-button {
   width: 68px;
   height: 32px;
   margin: 56px 152px 318px 904px;
   gap: 8px;
+  display: flex;
 }
 .back-button {
   width: 32px;
