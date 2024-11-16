@@ -121,6 +121,7 @@ a {
   height: 51px;
   line-height: 34.55px;
   font-size: 20px;
+  transition: 500ms;
   box-shadow: 0px 16px 32px 0px rgba(35, 157, 96, 0.48);
 }
 .product-show-button > button:hover {
@@ -164,4 +165,18 @@ a {
   line-height: 34.55px;
   font-size: 20px;
   box-shadow: 0px 16px 32px 0px rgba(35, 157, 96, 0.48);
+}
+
+/*********** Slider Bird **********/
+.slider-one {
+  direction: ltr;
+  width: 1076px;
+  height: 352px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1124px;
+  height: 352px;
+  border-radius: 160px 32px 32px 32px;
+  overflow: hidden;
+  background-color: #246d42;
 }
