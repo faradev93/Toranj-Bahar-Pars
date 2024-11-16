@@ -178,5 +178,64 @@ a {
   height: 352px;
   border-radius: 160px 32px 32px 32px;
   overflow: hidden;
-  background-color: #246d42;
+  transition: 0.5s;
+}
+
+.number-slide1 {
+  min-width: 306px;
+  max-width: 352px;
+}
+
+.number-slide2 {
+  min-width: 794px;
+  max-width: 352px;
+}
+
+.number-slide3 {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.number-slide4 {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.keen-slider__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Suprem Sale */
+.slider-sale {
+  width: 1124px;
+  height: 406px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: linear-gradient(270deg, #ff4f17 0%, #e73700 60.42%);
+  border-radius: 32px 160px 32px 32px;
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.24) inset;
+}
+.slider-sale-info {
+  background-color: rgb(200, 117, 62);
+  width: 300px;
+  height: 406px;
+  /* overflow: hidden; */
+  border-top-right-radius: 160px;
+  border-bottom-right-radius: 32px;
+}
+.back-forward-button {
+  width: 68px;
+  height: 32px;
+  margin: 56px 152px 318px 904px;
+  gap: 8px;
+}
+.back-button {
+  width: 32px;
+  height: 32px;
+  transform: rotate(180deg);
+}
+.forward-button {
+  width: 32px;
+  height: 32px;
 }
