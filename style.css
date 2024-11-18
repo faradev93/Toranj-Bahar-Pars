@@ -14,6 +14,19 @@ body {
 .flex {
   display: flex;
 }
+.par > img {
+  position: absolute;
+  transform: rotate(150deg);
+  margin-left: -71px;
+}
+.par {
+  position: absolute;
+  direction: ltr;
+  min-width: 150px;
+  height: 450px;
+  left: -200px;
+  top: -50%;
+}
 
 /* ••••••••••••• Body ••••••••••••• */
 /*********** header **********/
@@ -206,8 +219,13 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
 /* Suprem Sale */
+
 .slider-sale {
+  display: flex;
+  flex-direction: row;
+  position: relative;
   width: 1124px;
   height: 406px;
   margin: 0 auto;
@@ -216,28 +234,51 @@ a {
   border-radius: 32px 160px 32px 32px;
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.24) inset;
 }
-.slider-sale-info {
-  background-color: rgb(200, 117, 62);
-  width: 300px;
+.sale-grid-details {
+  width: 280px;
   height: 406px;
-  /* overflow: hidden; */
-  border-top-right-radius: 160px;
-  border-bottom-right-radius: 32px;
-  /* align-items: center; */
+  border-radius: 32px 160px 32px 32px;
+  gap: 4px;
+  justify-content: center;
+  background-color: rgba(40, 42, 132, 0.306);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .back-forward-button {
   width: 68px;
   height: 32px;
-  margin: 56px 152px 318px 904px;
-  gap: 8px;
-  display: flex;
+  margin-inline-start: 160px;
 }
+
 .back-button {
+  /* margin-top: 56px; */
+  /* margin-inline-start: 160px; */
+  transform: rotate(180deg);
   width: 32px;
   height: 32px;
-  transform: rotate(180deg);
 }
 .forward-button {
+  /* margin-top: 56px; */
   width: 32px;
   height: 32px;
+}
+.special-sale {
+  margin-top: 45px;
+  margin-inline-start: 50px;
+}
+
+.sale-grid-details > p {
+  color: white;
+  font-size: 12px;
+  margin-top: 25px;
+}
+.slider-timer {
+  width: 196px;
+  height: 70px;
+  background-color: rgba(0, 0, 128, 0.335);
+}
+.all-button {
+  margin-top: 25px;
 }
