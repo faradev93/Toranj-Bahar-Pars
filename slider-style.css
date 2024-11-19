@@ -5,7 +5,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 [class^="number-slide"],
-[class*=" number-slide"] {
+[class*=" number-slide"],
+[class*="number-spc"],
+[class^="number-spc"] {
   border-radius: 32px;
   background: grey;
   display: flex;
@@ -26,8 +28,22 @@ body {
     rgba(63, 97, 255, 1) 100%
   );
 }
+/*  */
+
+.number-spc1 {
+  background-color: white;
+}
 
 .number-slide2 {
+  background: rgb(255, 75, 64);
+  background: linear-gradient(
+    128deg,
+    rgba(255, 154, 63, 1) 0%,
+    rgba(255, 75, 64, 1) 100%
+  );
+}
+
+.number-spc2 {
   background: rgb(255, 75, 64);
   background: linear-gradient(
     128deg,
@@ -49,6 +65,19 @@ body {
     rgba(43, 250, 82, 1) 100%
   );
 }
+.number-spc3 {
+  background: rgb(182, 255, 64);
+  background: linear-gradient(
+    128deg,
+    rgba(182, 255, 64, 1) 0%,
+    rgba(63, 255, 71, 1) 100%
+  );
+  background: linear-gradient(
+    128deg,
+    rgba(189, 255, 83, 1) 0%,
+    rgba(43, 250, 82, 1) 100%
+  );
+}
 
 .number-slide4 {
   background: rgb(64, 255, 242);
@@ -58,7 +87,14 @@ body {
     rgba(63, 188, 255, 1) 100%
   );
 }
-
+.number-spc4 {
+  background: rgb(64, 255, 242);
+  background: linear-gradient(
+    128deg,
+    rgba(64, 255, 242, 1) 0%,
+    rgba(63, 188, 255, 1) 100%
+  );
+}
 .number-slide5 {
   background: rgb(255, 64, 156);
   background: linear-gradient(

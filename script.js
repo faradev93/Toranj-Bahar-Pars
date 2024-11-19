@@ -102,3 +102,13 @@ var slider = new KeenSlider(
   },
   [navigation]
 );
+
+
+var slidersepcial = new KeenSlider("#slider-specialsale", {
+  loop: true,
+  mode: "free-snap",
+  slides: {
+    perView: 8,
+    spacing: -20,
+  },
+})

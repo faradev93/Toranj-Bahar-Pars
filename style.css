@@ -4,6 +4,9 @@
   src: url(public/fonts/IRANYekanX-Bold.woff2) format("woff2");
   src: url(public/fonts/IRANYekanX-Regular.woff2) format("woff2");
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Yekan";
   box-sizing: border-box;
@@ -240,7 +243,6 @@ a {
   border-radius: 32px 160px 32px 32px;
   gap: 4px;
   justify-content: center;
-  background-color: rgba(40, 42, 132, 0.306);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -249,24 +251,20 @@ a {
 .back-forward-button {
   width: 68px;
   height: 32px;
-  margin-inline-start: 160px;
+  margin-inline-start: 150px;
 }
 
 .back-button {
-  /* margin-top: 56px; */
-  /* margin-inline-start: 160px; */
   transform: rotate(180deg);
   width: 32px;
   height: 32px;
 }
 .forward-button {
-  /* margin-top: 56px; */
   width: 32px;
   height: 32px;
 }
 .special-sale {
   margin-top: 45px;
-  margin-inline-start: 50px;
 }
 
 .sale-grid-details > p {
@@ -274,6 +272,7 @@ a {
   font-size: 12px;
   margin-top: 25px;
 }
+
 .slider-timer {
   width: 196px;
   height: 70px;
@@ -281,4 +280,46 @@ a {
 }
 .all-button {
   margin-top: 25px;
+}
+
+.sale-grid-two {
+  width: calc(1124px - 280px);
+  justify-content: center;
+  align-items: center;
+}
+
+/* slider SpecialSale's */
+.slider-specialsale {
+  gap: 24.05 px;
+}
+
+.number-spc1 {
+  flex-direction: column;
+}
+
+.number-spc1 > p {
+  font-size: 16px;
+  color: black;
+  padding: 2px 4px;
+}
+.number-spc1 > span {
+  font-size: 16px;
+  padding: 2px 4px;
+  color: rgba(112, 112, 112, 1);
+
+}
+.special-price{
+  width: 195px;
+  height: 48px;
+}
+.special-price>p{
+color: black;
+}
+/* end */
+.ads-one {
+  width: 1124px;
+  height: 192px;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 24.05px;
 }
