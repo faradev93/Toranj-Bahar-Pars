@@ -112,3 +112,12 @@ var slidersepcial = new KeenSlider("#slider-specialsale", {
     spacing: -20,
   },
 })
+
+var lastproduct = new KeenSlider("#lastproduct", {
+  loop: true,
+  mode: "free-snap",
+  slides: {
+    perView: 8,
+    spacing: -20,
+  },
+})

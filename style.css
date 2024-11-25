@@ -280,6 +280,7 @@ a {
 }
 .all-button {
   margin-top: 25px;
+  margin-right: 90px;
 }
 
 .sale-grid-two {
@@ -306,14 +307,13 @@ a {
   font-size: 16px;
   padding: 2px 4px;
   color: rgba(112, 112, 112, 1);
-
 }
-.special-price{
+.special-price {
   width: 195px;
   height: 48px;
 }
-.special-price>p{
-color: black;
+.special-price > p {
+  color: black;
 }
 /* end */
 .ads-one {
@@ -322,4 +322,63 @@ color: black;
   margin: 0 auto;
   margin-top: 40px;
   gap: 24.05px;
+}
+/* Last Product */
+.last-product-slider {
+  width: 1124px;
+  height: 406px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: linear-gradient(270deg, #239d60 0%, #a3de83 60.42%);
+  border-radius: 32px 160px 32px 32px;
+}
+
+.last-products {
+  width: calc(1124px - 280px);
+  height: 406px;
+  gap: 4px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-lastproduct {
+  width: 68px;
+  height: 32px;
+  margin-inline-start: 150px;
+  gap: 6px;
+}
+
+.last-product-grid {
+  width: 280px;
+  height: 406px;
+  border-radius: 32px 160px 32px 32px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+#last-product-text1 {
+  color: white;
+  font-size: 24px;
+  line-height: 41.45px;
+  font-weight: 800;
+  width: 170px;
+  height: 41px;
+  margin-bottom: 0;
+  margin-top: 90px;
+}
+
+.last-product-text {
+  color: white;
+  margin: 0 0 100px 0;
+  font-size: 12px;
+  
+
+}
+.last-product-all-button{
+  margin-right: 50px;
 }
