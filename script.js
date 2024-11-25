@@ -113,7 +113,7 @@ var slidersepcial = new KeenSlider("#slider-specialsale", {
   },
 })
 
-var lastproduct = new KeenSlider("#lastproduct", {
+let lastproduct = new KeenSlider("#lastproduct", {
   loop: true,
   mode: "free-snap",
   slides: {

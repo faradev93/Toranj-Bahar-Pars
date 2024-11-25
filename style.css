@@ -325,6 +325,7 @@ a {
 }
 /* Last Product */
 .last-product-slider {
+  direction: inherit;
   width: 1124px;
   height: 406px;
   margin: 0 auto;
@@ -376,9 +377,60 @@ a {
   color: white;
   margin: 0 0 100px 0;
   font-size: 12px;
-  
-
 }
-.last-product-all-button{
+.last-product-all-button {
   margin-right: 50px;
+}
+/* Aks Toranj */
+.toranj-bahar {
+  width: 100%;
+  height: 810px;
+  margin-top: 62px;
+}
+.aks-toranj {
+  width: 100%;
+  object-fit: cover;
+}
+/* Below Toranj Pic */
+
+.rectangle-below-toranj-pic {
+  width: 100%;
+  height: 408px;
+  margin-top: 62px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rectangle {
+  width: 720px;
+  height: 408px;
+  border-radius: 160px 32px;
+  background: rgba(35, 157, 96, 0.1);
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+[class^="square"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 319px;
+  height: 280px;
+  background-color: white;
+  border: 1px solid rgba(35, 157, 96, 1);
+  border-radius: 80px 32px;
+}
+[class^="square1-text"] {
+  width: 271px;
+  height: 136px;
+  border: none;
+}
+[class^="text"] {
+  color: rgba(112, 112, 112, 1);
+  padding: 4px;
+  line-height: 27.64px;
+  text-align: center;
+}
+[class^="square"]>img {
+margin-top: 24px;
 }
